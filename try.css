@@ -1,0 +1,52 @@
+/* Style the footer container */
+.footer {
+    background-color: #333; /* Background color of the footer */
+    color: #fff; /* Text color */
+    padding: 20px 0; /* Padding for content inside the footer */
+  }
+  
+  /* Center-align the footer content */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Limit the width of the footer content */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Style the footer logo */
+  .footer-logo img {
+    width: 120px; /* Set the logo width */
+  }
+  
+  /* Style the footer links */
+  .footer-links ul {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px; /* Spacing between links */
+  }
+  
+  .footer-links a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Link text color */
+  }
+  
+  /* Style the footer social media icons */
+  .footer-social a {
+    margin-right: 10px; /* Spacing between social icons */
+  }
+  
+  .footer-social img {
+    width: 24px; /* Set the social icon width */
+  }
+  
+  /* Style the copyright/disclaimer text */
+  .footer-disclaimer {
+    text-align: center; /* Center-align the text */
+    margin-top: 20px; /* Spacing from the content above */
+  }
+  
